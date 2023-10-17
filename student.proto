@@ -1,0 +1,10 @@
+syntax = "proto3";
+package main;
+
+// this is a comment
+option go_package ="/stdent";
+message Student {
+  string name = 1;
+  bool male = 2;
+  repeated int32 scores = 3;
+}
